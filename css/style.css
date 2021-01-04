@@ -1,0 +1,194 @@
+/* Body */
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Header */
+header  {
+        background-color: #1D7DEF;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
+
+h2  {
+font-family: 'Red Hat Display', sans-serif;
+margin-left: 2rem;
+}
+
+/* NAVBAR */
+.bg-light {
+    background-color: #1D7DEF !important;
+}
+
+.navbar-light .navbar-brand{
+    padding-right: 40px;
+}
+
+.nav-item {
+    font-size: 1.3rem;
+    padding-right: 40px;
+}
+
+/* CARUSEL */
+::-webkit-scrollbar{
+    background: #d4d4d4;
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+#carousel{
+    width:100%;
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.carousel{
+    overflow-x:scroll;
+}
+
+#carousel p{  
+    color: #134A73; 
+    font-family:sans-serif;
+    font-size:20px;
+    text-align:center;   
+    margin-top: 3%;
+    margin-bottom: 40px;  
+}
+
+#carousel .gallery {
+    display: flex;
+    flex-direction: row;
+    width:2500px;
+    height: 60vh;
+}
+
+#carousel .item {
+    flex: 1;
+    height: 90%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+}
+
+#carousel .item:hover{
+    flex: 8%;
+}
+
+/*imágenes carrusel*/
+#carousel .item-1 { 
+    background-image: url('../img/1.jpg');
+}
+#carousel .item-2 { 
+    background-image: url('../img/2.jpg');
+}
+#carousel .item-3 { 
+    background-image: url('../img/3.jpg');
+}
+#carousel .item-4 { 
+    background-image: url('../img/4.jpg');
+}
+#carousel .item-5 { 
+    background-image: url('../img/5.jpg');
+}
+#carousel .item-6 { 
+    background-image: url('../img/6.jpg');
+}
+#carousel .item-7 { 
+    background-image: url('../img/7.jpg');
+}
+#carousel .item-8 { 
+    background-image: url('../img/8.jpg');
+}
+#carousel .item-9 { 
+    background-image: url('../img/9.jpg')
+}
+#carousel .item-10 { 
+    background-image: url('../img/10.jpg');
+}
+#carousel .item-11 { 
+    background-image: url('../img/11.jpg');
+}
+#carousel .item-12 { 
+    background-image: url('../img/12.jpg');
+}
+#carousel .item-13 { 
+    background-image: url('../img/13.jpg');
+}
+#carousel .item-14 { 
+    background-image: url('../img/14.jpg');
+}
+
+.gallery .item:hover{
+    cursor:pointer;
+}
+
+
+/* Cards trip */
+#cards-trip {
+    margin: 20px;
+}
+
+
+/* Footer */
+.card {
+    padding-top: 3rem;
+    margin: 1rem;
+}
+
+.card-header {
+    background-color: transparent;
+    color: #000000;
+}
+
+.card-body img  {
+    width: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+/* mis viajes perfil*/
+.viaje{
+    background-color: #1D7DEF;
+    padding: 0.5rem 1rem;
+    border-radius: 0.8rem;
+}
+.data-name{
+    color: #CCE5FC;
+    font-size: 13px;
+    font-weight: lighter;
+
+}
+.data-value{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.list-item{
+    margin-bottom:0.5rem;
+
+}
